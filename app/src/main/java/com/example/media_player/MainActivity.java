@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity  {
                /*bundle.putStringArrayList("SongName", arrayList);*/
 
                Intent intent = new Intent(MainActivity.this,Activity_2.class);
-               intent.putExtra("list",arrayList);
+               intent.putExtra("list", arrayList);
                intent.putExtras(bundle);
                startActivity(intent);
 
